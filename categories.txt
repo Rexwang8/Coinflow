@@ -1,0 +1,190 @@
+# Categories for transactions
+# Hashtags and invalid lines are ignored
+
+#Root categories are written with either a + , = or - in front to denote expense/income/none
+#Child Categories are written with a '>' in front,
+#Currently only supports one layer of children
+
+#Stuff you buy at a supermarket
+-Shopping
+>Grocery
+>Tools
+>Garden
+>Furniture
+>Home
+>Hobby
+>Electronics
+>Office Supplies
+>Books
+>Movies
+>Music
+>Games
+>Toys
+>Baby
+>Clothes
+>Shoes
+
+#Mainly self improvement
+-Personal
+>General
+>Gym
+>Hair
+>Cosmetics
+>Baby
+>Entertainment
+
+#Food for yourself
+-Food
+>Fast Food
+>Dining
+>Delivery
+>Drinks
+>Dessert
+>Festivals
+>Meal Kits
+
+#Online transactions
+-Online
+>Subscriptions
+>Services
+>Shopping
+>Games
+>Food
+
+#Bills and Utilities
+-Bills
+>Electric
+>Utilities
+>Water
+>Internet
+>Phone
+>Cable
+>Other
+
+#Medical
+-Medical
+>Primary Care
+>Dental
+>Specialty Care
+>Urgent Care
+>Medications
+>Medical Devices
+>Mental 
+
+#Insurance
+-Insurance
+>Home
+>Auto
+>Life
+>Renter
+>Disability
+>Other
+
+
+#Home
+-Home
+>Rent
+>Repairs
+>HOA Fees
+>Taxes
+
+#Savings, depositing money in
+-Savings Deposit
+>General
+>Emergency
+>Retirement
+>Investments
+
+#Savings, withdrawing money out
++Savings Withdraw
+>General
+>Emergency
+>Retirement
+>Investments
+
+#Transportation
+-Transportation
+>Car
+>Gas
+>Repairs
+>Parking
+>Registration
+>Bus
+>Train
+>Plane
+
+-Investment Deposit
+>Stock Deposit
+
++Investment Withdrawal
+>Stock Withdrawal
+
+#Debt, repayments
+-Debt
+>General
+>Personal Loan
+>Student Loan
+>Credit Card
+>Auto
+>Mortgage
+
+#Loans, the amount you take out
++Loan
+>General
+>Personal Loan
+>Student Loan
+>Credit Card
+>Auto
+>Mortgage
+
+#Entertainment
+-Entertainment
+>Alcohol
+>Drugs
+>Dating
+>Gambling
+
+#Travel
+-Travel
+>General
+>Concerts
+>Business
+>Vacation
+
+
+#Other Expenses
+-Other Expenses
+>Other
+>Card Credit
+>One Time
+>Gifts
+>Donations
+>Transfer
+>Cash
+>Fees
+
+#Stuff that doesn't add or subtract money
+=Misc
+>Bank Verification
+>Self Transfer
+>Other
+>Error
+>Unsorted
+
+#Income, anything that gives you money
++Income
+>Gifts
+>Sale
+>Dividends
+>Paycheck
+>Bonus
+>Interest
+>Refunds
+>Rewards
+>Reimbursements
+>Rental
+>Transfer
+>Cash Deposit
+>Credit Payment
+>Investment Withdrawal
+>Other

@@ -1,0 +1,26 @@
+#RULES
+#For classifying transactions
+#Priority is Specific (one transaction) >> Exact (100% match) >> Partial (some match) >> default (everything else)
+#Once classified, it won't be reclassified
+#All rules are case-insensitive, rules that are invalid are ignored
+
+#LINES STARTING WITH HASHTAGS ARE IGNORED
+#first character s for specific, e for exact, p for partial, d for default
+#second character i for income, e for expense, a for all, n for neutral
+#eaZelle Payment From George:Personal - General 
+#matches exact for all expenses named "Zelle Payment From George" to the Personal - General Category
+
+# Specific
+# $<id> NOTIMPLEMENTED
+#$021983:Shopping - Tools
+# %<date> NOTIMPLEMENTED
+#%09/19/2022:Shopping - Furniture
+
+# Exact
+eaZelle Payment From George:Personal - General
+
+# Partial
+paZelle Payment:Online - Services
+
+# Default, only first rule is accepted
+dnOther - Other

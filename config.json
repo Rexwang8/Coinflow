@@ -1,0 +1,14 @@
+{
+    "defaultWindow_w": 1200,
+    "defaultWindow_h": 800,
+    "defaultUser": "u_user",
+    "defaultAccount": "a_checking",
+    "defaultIsFullScreen": false,
+    "defaultL2TransactionAmount": 100,
+    "defaultL3TransactionAmount": 1000,
+    "defaultDataFolderName": "data",
+    "defaultconfigFileName": "config.json",
+    "defaultbackupFolderName": "backup",
+    "defaultrulesFileName": "rules.txt",
+    "defaultcategoriesFileName": "categories.txt"
+}
